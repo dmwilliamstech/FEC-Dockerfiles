@@ -1,0 +1,12 @@
+# define our source to loook for gems
+source "http://rubygems.org/"
+
+# declare the sinatra dependency
+gem "sinatra" 
+gem 'rspec'
+gem 'minitest'
+gem 'sinatra-base'
+gem 'sinatra-contrib'
+gem 'rest-client'
+gem 'test-unit'
+gem 'rack-test'
