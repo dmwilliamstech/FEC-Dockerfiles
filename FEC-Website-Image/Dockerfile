@@ -1,6 +1,7 @@
 # This Dockerfile is used to build an image containing basic stuff to be used as a Jenkins slave build node.
 
-FROM ubuntu:latest
+FROM oraclelinux:7
+
 MAINTAINER David Williams <dmwilliams.tech@gmail.com>
 
 # Make sure the package repository is up to date.
